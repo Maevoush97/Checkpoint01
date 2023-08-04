@@ -14,8 +14,8 @@
 __*Par rapport aux adresses IP de chaque PC :*__
 | Questions | Réponses |
 |--- |:-: |
-|Adresse de diffusion du réseau 1 |         |
-|Plage d'adresses disponibles du réseau 1 |          |
+|Adresse de diffusion du réseau 1 |   L'adresse de diffusion du réseau 1 est __*10.0.1.63*__      |
+|Plage d'adresses disponibles du réseau 1 |  La plage d'adresses disponibles est de __*62*__ (car l'adresse de réseau ne peux être distribuée)        |
 |Adresse de diffusion du réseau 2 | L'adresse de diffusion du réseau 2 est __*10.0.0.255*__      |
 |Plage d'adresses disponibles du réseau 2 |  La plage d'adresses disponibles est __*253*__ (car l'adresse 10.0.0.0 sera l'adresse réseau et ne peux pas être distribuer à un équipement)    |
 |Les machines Ubuntu-1 et Ubuntu-2 peuvent-elles communiquer entre-elles ? Pourquoi ? |   Non car étant dans des réseaux différents, elles ont besoin d'un pont pour pouvoir communiquer entre elles      |
@@ -46,3 +46,11 @@ __*Par rapport aux adresses IP de chaque PC :*__
 |Celle-ci a-t-elle réussie ? Si oui entre quels matériels et si non expliquer pourquoi |           |
 |Quels sont les rôles des matériels A et B ? |                |
 |Où vois-tu les différents protocoles encapsulés ? |           |
+
+
+
+
+
+
+## Scripting
+
